@@ -46,7 +46,7 @@ func main() {
 	handler := &handlers.Handler{
 		DB:        db,
 		JWTSecret: config.JWTSecret,
-	}
+	}   
 
 	// Setup Gin router
 	router := gin.Default()
